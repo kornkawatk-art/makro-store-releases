@@ -1,2 +1,8 @@
-# makro-store-releases
-MakroStore.exe releases (built programs only, no source or data)
+# MakroStore releases
+
+ที่เก็บไฟล์ `MakroStore.exe` และ `MakroStoreUpdater.exe` ที่สร้างเสร็จแล้ว โปรแกรมที่คอมของแต่ละสาขามาเช็กที่นี่เพื่ออัปเดตตัวเอง (ติดตั้งเฉพาะ 22:00–06:00)
+
+- แต่ละ release สร้างอัตโนมัติจาก GitHub Actions ของ repo หลัก
+- มีแค่ไฟล์โปรแกรมกับ `SHA256SUMS` (โปรแกรมเช็ก hash ก่อนติดตั้งทุกครั้ง)
+- ไม่มีโค้ด รหัสผ่าน หรือข้อมูลลูกค้าใน repo นี้
+- ห้ามอัปโหลดไฟล์เองด้วยมือ
